@@ -11,11 +11,11 @@ var wins = 0
 var losses = 0
 
 function resetGame(){
-    targetNum = Math.floor(Math.random() * 50)+10
-    crystal1 = Math.floor(Math.random() * 10)+1
-    crystal2 = Math.floor(Math.random() * 10)+1
-    crystal3 = Math.floor(Math.random() * 10)+1
-    crystal4 = Math.floor(Math.random() * 10)+1
+    targetNum = Math.floor(Math.random() * 120)+19
+    crystal1 = Math.floor(Math.random() * 12)+1
+    crystal2 = Math.floor(Math.random() * 12)+1
+    crystal3 = Math.floor(Math.random() * 12)+1
+    crystal4 = Math.floor(Math.random() * 12)+1
     score = 0
     $("#desired-number").text("Target Score: " + targetNum)
     $(".total-score").text(score)
